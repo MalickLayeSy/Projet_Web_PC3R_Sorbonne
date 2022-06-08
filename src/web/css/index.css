@@ -1,0 +1,139 @@
+/* Add a black background color to the top navigation */
+.topNavigation {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.boutonIdentification {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    position: sticky;
+    display: block;
+}
+
+.searchResult {
+    display: none;
+}
+
+.searchResult h1 {
+    background-color: #eee;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.acceuil {
+    display: block;
+}
+
+/* Style the links inside the navigation bar */
+.montantCompte {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    position: sticky;
+    color: white;
+    display: none;
+}
+
+.boutonDéconnexion {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    position: sticky;
+    display: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    /*display: table-cell;*/
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+
+ol li ul {
+    margin: 50px;
+}
+
+ul li {
+    padding: 5px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #8C8B88;
+    color: #333333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+    background-color: #f8cf00;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    max-height: 500px;
+    overflow: scroll;
+    background-color: #f67c7c;
+    color: #000000;
+} 
